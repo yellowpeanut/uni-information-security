@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbInitial">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Текст файла</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="teInitial">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>501</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbEncrypted">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Зашифрованный текст</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="teEncrypted">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>501</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="imgTable">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>30</y>
+      <width>251</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbTable">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Таблица замен</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOpen">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>450</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Открыть файл</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEncrypt">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>520</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Зашифровать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnExit">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>520</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbKeyword">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>310</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ключевое слово</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leKeyword">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>330</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
